@@ -1,1 +1,46 @@
-["index.md"]
+[
+    "index.md",
+    [
+        "background.md",
+        "challenges.md"
+    ],
+    [
+        "jhipster.md",
+        "yeoman.md",
+        "stats.md"
+    ],
+    [
+        "backend-technology.md",
+        "spring-boot.md",
+        "embedded-web-container.html",
+        "spring-data-jpa.md",
+		"spring-data-jpa.html",
+        "supported-databases.md",
+        "spring-security.md",
+        "spring-mvc-rest.md",
+        "bean-validation.md",
+        "elasticsearch.md",
+        "connection-pooling.md",
+        "log-management.md",
+        "metrics-monitoring.md",
+        "hibernate-caching.md"
+    ],
+    [
+        "frontend-technology.md",
+        "angularjs.md",
+        "angular-translate.md",
+        "responsive-web-design.md",
+        "twitter-bootstrap.md",
+        "template-engine.md"
+    ],
+    [
+        "productivity-tools.md",
+        "maven.md",
+        "grunt.md",
+        "bower.md",
+        "karma-phantomjs.md",
+        "liquibase.md",
+        "spring-profiles.md",
+        "properties.md"
+    ]
+]

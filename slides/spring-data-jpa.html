@@ -1,0 +1,18 @@
+<h2>Spring Data JPA</h2>
+
+<ul>
+  <li>Simple CRUD Repositories</li>
+  <li>(findAll, create, update, delete, and more)</li>
+  <li>Dynamic Finders <a href="http://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods" target="_blank"><i class="fa fa-external-link"></i></a></li>
+</ul>
+
+<pre>
+public interface AttendeeRepository extends JpaRepository<Attendee, Long> {
+
+    List<Attendee> findByOrderByNameDesc();
+    
+    List<Attendee> findByNameOrderByNameAsc(String name);
+    
+    List<Attendee> findByOrderByNameAsc();
+}
+</pre>

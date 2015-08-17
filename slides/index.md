@@ -1,7 +1,7 @@
 
-# Scaffolding full-stack app via jHipster
+# jHipster
 
-From the terminal, pop in:
+Scaffolding full-stack app
 
   ```yo reveal:slide "Slide Title"```
 
